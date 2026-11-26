@@ -10,6 +10,10 @@ the 1-140 character kit gate and the 200-character bounty limit.
 
 Stdlib only. No network, no local imports, no reads or writes outside
 the single output file. Safe to run in the grading sandbox.
+
+Revision note: the bounty text allows 200 characters, but the kit's
+own gate enforces 1-140, so MAX_CHARS is set to 140 and the 83-char
+line clears it with room to spare.
 """
 
 import os
